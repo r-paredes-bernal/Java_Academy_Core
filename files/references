@@ -8,3 +8,22 @@ https://dzone.com/articles/the-hidden-synchronized-keyword-with-a-static-bloc
 
 Difference Static and Empty block:
 http://javainterviewquestionswithanswer.blogspot.com/2016/11/difference-between-static-block-and.html
+
+Session 2)
+
+Default method in interfaces (Java 8)
+https://www.geeksforgeeks.org/default-methods-java/
+
+“implements Runnable” vs “extends Thread” in Java
+https://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread-in-java
+
+ScheduledExecutorService
+https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ScheduledExecutorService.html
+
+Lambdas, Functional interfaces
+https://stackoverflow.com/questions/33492203/what-are-the-advantages-of-using-lambda-expressions-in-java-8
+https://www.baeldung.com/java-8-functional-interfaces
+https://www.geeksforgeeks.org/lambda-expressions-java-8/
+
+UML
+https://stackoverflow.com/questions/40253253/how-do-we-draw-abstract-method-in-uml-class-diagram

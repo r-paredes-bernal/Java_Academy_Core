@@ -1,6 +1,6 @@
 package academy.core.session1.innerclasses;
 
-public class NormalClass {
+public class NormalClass { // Top Level Class
 	
 	// Inner Class
 	class InnerClass {
@@ -9,7 +9,8 @@ public class NormalClass {
 	
 	// Static Inner Class
 	static class StaticInnerClass {
-		
+		static int staticVar = 1;
+		int noStaticVar = 2;
 	}
 	
 	// What?... See references.txt
@@ -29,4 +30,16 @@ public class NormalClass {
 		}
 	}
 	
+	// Inner interface
+	interface innerInterface {
+		int car = 1; // Implicit final and static scope
+		class clasImpStatic {
+			
+		}
+	}
+	
+	// Static inner interface 
+	static interface staticInnerInterface {
+
+	}
 }
