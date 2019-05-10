@@ -9,7 +9,7 @@ public interface InterfaceJava8 {
 	
 	// Somebody explain me this!
 	default void implementedMethod() {
-		
+		System.out.println("Metodo default de la interfaz");
 	}
 	
 	static void staticMethod() {	

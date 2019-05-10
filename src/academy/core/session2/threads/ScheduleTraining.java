@@ -9,8 +9,11 @@ public class ScheduleTraining {
 	private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
 	public void runFor10seconds() {
+		
+		Runnable runrun =  () -> ScheduleTraining.runForrestGump();
+		
 		final ScheduledFuture<?> runnerHandler = scheduler.scheduleAtFixedRate(
-				() -> ScheduleTraining.runForrestGump(), 1, 1, SECONDS);
+				runrun , 1, 1, SECONDS);
 
 		// Sombody stops forest!
 		scheduler.schedule(() -> runnerHandler.cancel(true), 10, SECONDS);
