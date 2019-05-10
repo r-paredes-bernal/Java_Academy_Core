@@ -16,11 +16,11 @@ public class ScheduleTraining {
 		scheduler.schedule(() -> runnerHandler.cancel(true), 10, SECONDS);
 	}
 
-	public static void main(String args[]) {
-		new ScheduleTraining().runFor10seconds();
-	}
-	
 	static void runForrestGump() {
 		System.out.println("Running");
+	}
+	
+	public static void main(String args[]) {
+		new ScheduleTraining().runFor10seconds();
 	}
 }

@@ -2,7 +2,7 @@ package academy.core.session2.interfaces;
 
 public class ClassImpl implements InterfaceJava8 {
 
-	@Override
+	@Override //anotacion para referirnos a determinados componentes(metodos) 
 	public void classicMethod() {
 
 	}
@@ -15,7 +15,7 @@ public class ClassImpl implements InterfaceJava8 {
 		
 		// A statifc interface method cannot be used through inheritance
 		 
-		/*
+		/* si agregamos la interface se podra implementar pero nola clase
 		ClassWithInterface.staticMethod();
 		ClassWithInterface cwf = new ClassWithInterface();
 		cwf.staticMethod();
