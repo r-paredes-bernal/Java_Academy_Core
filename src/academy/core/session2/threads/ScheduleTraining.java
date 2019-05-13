@@ -10,17 +10,17 @@ public class ScheduleTraining {
 
 	public void runFor10seconds() {
 		final ScheduledFuture<?> runnerHandler = scheduler.scheduleAtFixedRate(
-				() -> ScheduleTraining.runForrestGump(), 1, 1, SECONDS);
+				() -> ScheduleTraining.runForrestGump(), 1, 2, SECONDS);
 
-		// Sombody stops forest!
+		// Sombody stops forrest!
 		scheduler.schedule(() -> runnerHandler.cancel(true), 10, SECONDS);
-	}
-
-	public static void main(String args[]) {
-		new ScheduleTraining().runFor10seconds();
 	}
 	
 	static void runForrestGump() {
 		System.out.println("Running");
+	}
+	
+	public static void main(String args[]) {
+		new ScheduleTraining().runFor10seconds();
 	}
 }

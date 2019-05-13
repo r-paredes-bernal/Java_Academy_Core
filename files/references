@@ -27,3 +27,9 @@ https://www.geeksforgeeks.org/lambda-expressions-java-8/
 
 UML
 https://stackoverflow.com/questions/40253253/how-do-we-draw-abstract-method-in-uml-class-diagram
+
+Are lambda expressions objects?
+http://www.lambdafaq.org/are-lambda-expressions-objects/
+
+Does a lambda expression create an object on the heap every time it's executed?
+https://stackoverflow.com/questions/27524445/does-a-lambda-expression-create-an-object-on-the-heap-every-time-its-executed

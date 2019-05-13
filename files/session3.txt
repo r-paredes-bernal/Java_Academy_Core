@@ -1,0 +1,19 @@
+
+
+Singleton:
+https://www.arquitecturajava.com/ejemplo-de-java-singleton-patrones-classloaders/
+
+Different examples:
+https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
+
+Life cycle:
+https://www.dummies.com/programming/java/what-is-the-life-cycle-of-an-object-in-java/
+
+Garbage Collector:
+https://www.mathworks.com/matlabcentral/answers/99329-how-can-i-request-java-garbage-collection-in-the-java-virtual-machine-jvm-in-matlab-7-3-r2006b
+
+Data Types:
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+Chracter List:
+https://en.wikipedia.org/wiki/List_of_Unicode_characters

@@ -8,17 +8,15 @@ public class ClassImpl implements InterfaceJava8 {
 	}
 	
 
-	
 	public static void main(String[] args) {
 		InterfaceJava8.staticMethod();
 		
 		
-		// A statifc interface method cannot be used through inheritance
-		 
+		// A static interface method cannot be used through inheritance
 		/*
-		ClassWithInterface.staticMethod();
-		ClassWithInterface cwf = new ClassWithInterface();
+		ClassImpl.staticMethod();
+		ClassImpl cwf = new ClassImpl();
 		cwf.staticMethod();
-		*/ 
+		 */
 	}
 }
