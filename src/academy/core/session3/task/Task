@@ -1,0 +1,14 @@
+1) Create 2 singleton classes:
+
+
+A) Eager/Classic:
+   Create a singleton class "DBConnection" that creates and gets an instance of the connection.
+B) Lazy loading:
+   Create a lazy singleton class "CookieFactory" that creates and gets an instance of a Cookie
+ 
+ 
+ 2) Generate a program that prints the following question in the console and captures the user input, 
+    then validate the input, if the input is the correct answer then print correct, otherwise incorrect.
+    
+     You choose a funny trivia question and 5 different options, you can use letters or numbers as you wish
+ 
