@@ -12,5 +12,10 @@ B) Lazy loading:
     
      You choose a funny trivia question and 5 different options, you can use letters or numbers as you wish
  
+ Homework:
  3) Use a try with resources strategy to create a class to open a file and close it automatically,
     don't add logic to open file just add some console print outputs
+    
+ 3.1) 
+ try-with-resources with Multiple Resources
+ Use Connection in the try-with-resources and open the connection, too. 
