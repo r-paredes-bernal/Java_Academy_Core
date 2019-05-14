@@ -1,0 +1,12 @@
+Session 4:
+
+ Topics: Arrays.asList, forEach, :: operator (method passed as reference), lambdas
+ https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-
+ https://www.codementor.io/eh3rrera/using-java-8-method-reference-du10866vx
+ https://www.geeksforgeeks.org/lambda-expressions-java-8/
+ 
+ 
+Topics: HashMap, lambda and For Each
+ https://www.geeksforgeeks.org/java-util-hashmap-in-java/
+ https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+ 
