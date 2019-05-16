@@ -1,7 +1,7 @@
 package academy.core.session3.singleton;
 
 public class StaticBlockSingleton {
-	private static StaticBlockSingleton instance;
+	private static final StaticBlockSingleton instance;
 
 	private StaticBlockSingleton() {
 	}

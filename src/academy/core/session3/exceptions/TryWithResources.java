@@ -8,7 +8,7 @@ public class TryWithResources {
 	}
 	
 	// Traditional way of closing resources
-	public static void tryWihFinally() throws Exception {
+	public static void tryWihFinally() throws Exception  {
 		Connector connector = new Connector();
 		try {
 		    connector.openConnection();
