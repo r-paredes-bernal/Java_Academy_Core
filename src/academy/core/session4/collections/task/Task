@@ -1,0 +1,15 @@
+1) Change the computer order logic and change the order by id
+
+2) Create a class Student with following attributes:
+
+ - Name, Last Name, Location, Level
+ 
+ 3) Create a Test Class to test above class and print the results ordered by Name, Location and Level.
+ Insights:
+ - Use mock data for filling objects, at least 10. 
+ - Use Comprable/Comparator to order the classes 
+ - Use ToString to print the object attributes
+ - May be, you will need to create different classes/interfaces for each ordering
+ 
+ Homework:
+ Figure out a way to only pass a comparator to the class to define the order of the objects
