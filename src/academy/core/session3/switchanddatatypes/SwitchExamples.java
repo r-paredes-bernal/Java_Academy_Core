@@ -26,7 +26,7 @@ public class SwitchExamples {
 	}
 
 	// 8 bit-signeds
-	public void switchByte() {
+	public static void switchByte() {
 		byte byte1 = 100;
 
 		switch (byte1) {
@@ -58,7 +58,7 @@ public class SwitchExamples {
 
 	// 32-bit signed
 	public static void switchInteger() {
-		Integer int1 = 1;
+		Integer int1 = 10;
 
 		switch (int1) {
 		case 10:
@@ -74,7 +74,7 @@ public class SwitchExamples {
 	}
 
 	public static void switchCharacter() {
-		Character char1 = '\u0068'; // see character list in refernce
+		Character char1 = '\u0068'; // see character list in reference
 
 		// Character char1 = "hello".charAt(0);
 
