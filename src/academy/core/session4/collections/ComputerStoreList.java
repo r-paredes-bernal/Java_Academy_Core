@@ -22,11 +22,6 @@ public class ComputerStoreList implements Printable{
 	}
 	
 	
-	/*
-	private void printInventory(Computer[] inventory) {
-		Arrays.asList(inventory).forEach( n -> System.out.println(n) );		
-	}
-	*/
 	
 	// Overloaded not inherited
 	private void printInventory(Computer c1, Computer c2, Computer c3) {
@@ -45,7 +40,7 @@ public class ComputerStoreList implements Printable{
 		
 		store.printInventory();
 		// store.printInventory(inventory);
-		store.printInventory(c1,c2,c3);
+		// store.printInventory(c1,c2,c3);
 		
 	}
 	

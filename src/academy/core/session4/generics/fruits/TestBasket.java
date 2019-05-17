@@ -12,7 +12,7 @@ public class TestBasket {
 		basket.add(pear);
 		basket.add(orange);
 		
-		// basket.add(onion);
+		basket.add(onion);
 		
 		basket.print();
 		
