@@ -13,15 +13,18 @@ public class Basket implements Printable {
 	}
 	
 	@Override
-	public void print() {
+	public void print() {	
 		if ( list.isEmpty() ) {
 			System.out.println("The basket is empty");			
 		} else {
 			System.out.println("The basket contains: ");
 			Collections.sort(list);
-			for(Fruit fruit: list) {
-				System.out.println( fruit.getName() );
-			}
+			
+			list.forEach(fruit -> System.out.println( fruit.getName() ));
+			
+//			for(Fruit fruit: list) {
+//				System.out.println( fruit.getName() );
+//			}
 		}
 	}
 }

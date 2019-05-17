@@ -1,7 +1,10 @@
 package academy.core.session4.collections;
 
 
+
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 import academy.core.session4.generics.computers.Computer;
 import academy.core.session4.generics.computers.Printable;
@@ -18,7 +21,9 @@ public class ComputerStoreList implements Printable{
 	@Override
 	public void printInventory() {
 		// from array to list
-		Arrays.asList(inventory).forEach( n -> System.out.println(n) );		
+		List<Computer> list =Arrays.asList(inventory);
+		Collections.sort(list);
+		list.forEach( n -> System.out.println(n) );		
 	}
 	
 	
@@ -30,8 +35,8 @@ public class ComputerStoreList implements Printable{
 	
 	// Overloaded not inherited
 	private void printInventory(Computer c1, Computer c2, Computer c3) {
-		Arrays.asList(c1,c2,c3).forEach( n -> System.out.println(n) );		
-		//Arrays.asList(c1, c2, c3).forEach(System.out::println);
+		//Arrays.asList(c1,c2,c3).forEach( n -> System.out.println(n) );		
+		Arrays.asList(c1, c2, c3).forEach(System.out::println);
 	}
 	
 	public static void main(String[] args) {
@@ -45,7 +50,7 @@ public class ComputerStoreList implements Printable{
 		
 		store.printInventory();
 		// store.printInventory(inventory);
-		store.printInventory(c1,c2,c3);
+		//store.printInventory(c1,c2,c3);
 		
 	}
 	
