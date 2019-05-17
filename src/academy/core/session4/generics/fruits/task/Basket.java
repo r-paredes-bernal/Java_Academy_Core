@@ -1,4 +1,4 @@
-package academy.core.session4.generics.fruits;
+package academy.core.session4.generics.fruits.task;
 
 import java.util.ArrayList;
 import java.util.Collections;
