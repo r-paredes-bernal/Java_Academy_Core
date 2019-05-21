@@ -1,5 +1,8 @@
 Diamond operator:
 https://www.baeldung.com/java-diamond-operator
 
-
+Wildcard:
 https://en.wikipedia.org/wiki/Wildcard_(Java)
+
+Comparator
+https://www.journaldev.com/780/comparable-and-comparator-in-java-example
