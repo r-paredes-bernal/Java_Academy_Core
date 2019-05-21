@@ -3,10 +3,6 @@ package academy.core.session5.generics.diamond.wildcards;
 import java.util.ArrayList;
 import java.util.List;
 
-import academy.core.session5.generics.diamond.Father;
-import academy.core.session5.generics.diamond.GrandPa;
-import academy.core.session5.generics.diamond.Son;
-
 public class WildCarHierarchy {
 	public static void main(String[] args) {
 

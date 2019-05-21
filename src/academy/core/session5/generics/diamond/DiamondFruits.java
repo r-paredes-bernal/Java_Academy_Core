@@ -18,6 +18,7 @@ public class DiamondFruits {
 		
 		baskeOfApples.add(apple);
 		
+		baskeOfApples.print();
 		//baskeOfApples.add(onion);
 		
 		
