@@ -1,2 +1,17 @@
-Add Filters in FilterFindAll.java to filter just the Employees with a salary abouve 3,000
-Add a Filter to Find employees with ages 25 and 29
+Task 1:
+1) Add Filters in FilterFindAll.java to filter just the Employees with a salary above 3,000
+2) Add a Filter to Find employees with ages 25 and 29
+
+Task 2:
+Create a main class that order the following strings:
+
+"Germany", "USA", "France", "Japan"
+
+Task 3:
+
+Order the following string:
+
+"askdlaskdlaskdajda"
+
+
+
