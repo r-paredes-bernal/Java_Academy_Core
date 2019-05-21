@@ -1,0 +1,5 @@
+Diamond operator:
+https://www.baeldung.com/java-diamond-operator
+
+
+https://en.wikipedia.org/wiki/Wildcard_(Java)
