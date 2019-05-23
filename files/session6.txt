@@ -1,0 +1,9 @@
+Consumer
+https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html
+
+Collectors:
+
+Reference: http://www.baeldung.com/java-8-collectors
+
+GroupBy
+https://www.baeldung.com/java-groupingby-collector
