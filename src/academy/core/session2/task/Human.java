@@ -1,4 +1,4 @@
-package academy.core.session1.task;
+package academy.core.session2.task;
 
 @FunctionalInterface
 public interface Human {

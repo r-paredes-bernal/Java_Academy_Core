@@ -1,4 +1,4 @@
-package academy.core.session1.task;
+package academy.core.session2.task;
 
 public class CapitanAmerica implements CanFly, CanRun{
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package academy.core.session1.task;
+package academy.core.session2.task;
 
 public interface CanFly {
 	public boolean isFlying = false;
