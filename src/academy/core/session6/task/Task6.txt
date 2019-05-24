@@ -8,8 +8,7 @@ Lambdas:
 2) Create a Predicate to filter a integer array that contains random integers, 
    and filter just the even numbers
 
-  
-
+ 
 
 Streams:
 

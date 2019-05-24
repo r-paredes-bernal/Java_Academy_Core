@@ -7,3 +7,6 @@ Reference: http://www.baeldung.com/java-8-collectors
 
 GroupBy
 https://www.baeldung.com/java-groupingby-collector
+
+Optional
+https://www.baeldung.com/java-optional

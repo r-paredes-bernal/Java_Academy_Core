@@ -16,6 +16,6 @@ public class GroupByJoining {
 					Collectors.groupingBy(
 							String::length, Collectors.joining()));
 		
-		System.out.println(data.values());
+		System.out.println(data);
 	}
 }

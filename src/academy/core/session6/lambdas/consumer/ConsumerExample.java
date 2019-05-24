@@ -20,11 +20,14 @@ public class ConsumerExample {
 	public static void main(String[] args) {
 		List<String> names = Arrays.asList("John", "Freddy", "Samuel");
 		
-		Consumer<String> consumer = s -> System.out.println(s.toLowerCase());
+		Consumer<String> consumer = s -> {
+			System.out.println(s.toLowerCase());
+		    // 
+		};
 		
 		consumer.accept("Ana");
 		
-		names.forEach(consumer);
+		// names.forEach(consumer);
 		
 	}
 
