@@ -33,7 +33,7 @@ public class Computer implements Comparable<Computer>{
 
 	@Override
 	public int compareTo(Computer comp) {
-		return this.desc.compareTo(comp.desc);
+		return this.id - comp.getId();
 	}
 
 
