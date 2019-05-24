@@ -1,0 +1,23 @@
+Instructions:
+
+Create the lambdas and the test classes
+
+Lambdas:
+
+1) Create a Function to find the a circle area based on the R=Radious
+2) Create a Predicate to filter a integer array that contains random integers, 
+   and filter just the even numbers
+
+ 
+
+Streams:
+
+1) Use GroupBy to group a list of Computers by Id, use the class:
+academy.core.session4.generics.computers
+
+2) Use PartioningBy to partioning  a list of Employees with a salary greater than 5,000:
+
+	   List<Employee> employees = Arrays.asList(new Employee(10, "Mikey", 25, 10000),
+			new Employee(20, "Arun", 29, 20000),
+			new Employee(5, "Lisa", 35, 5000),
+			new Employee(1, "Mikey", 32, 80000));
