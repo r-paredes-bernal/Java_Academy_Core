@@ -2,7 +2,7 @@ package academy.core.session6.streams.optional;
 
 import java.util.Optional;
 
-public class OptionalLambdaExample {
+public class OptionalifPresent {
 	public static void main(String[] args) {
 		Optional<String> optional = Optional.empty();
 		
