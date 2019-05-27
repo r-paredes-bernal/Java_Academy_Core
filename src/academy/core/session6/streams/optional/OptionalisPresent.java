@@ -2,7 +2,7 @@ package academy.core.session6.streams.optional;
 
 import java.util.Optional;
 
-public class OptionalFilter {
+public class OptionalisPresent {
 	
 	/*
 	 * The filter API is used to run an inline test on the wrapped value. 
