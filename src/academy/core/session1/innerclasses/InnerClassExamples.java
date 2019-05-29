@@ -1,6 +1,6 @@
 package academy.core.session1.innerclasses;
 
-public class NormalClass { // Top Level Class
+public class InnerClassExamples { // Top Level Class
 	
 	// Inner Class
 	class InnerClass {
@@ -23,11 +23,27 @@ public class NormalClass { // Top Level Class
 		System.out.println("I'm a static block...");		
 	}
 	
-	
+	// Local Inner Class, a class in a method
 	void normalMethod() {
-		class InnerMethodClass {
-			// Is this possible? Why you didn't tell me this before?
+		class LocalInnerClass {
+			// Is this possible? Why nobody didn't tell me that before?
 		}
+	}
+	
+	// Local Inner Class and access modifieres
+	public void publicMethod() {
+		class LocalInnerClass {
+		}
+		
+		private class privateInnerClass {
+		}
+		
+		public class publicteInnerClass {
+		}
+		
+		protected class protectedInnerClass {
+		}
+		
 	}
 	
 	// Inner interface
@@ -42,4 +58,5 @@ public class NormalClass { // Top Level Class
 	static interface staticInnerInterface {
 
 	}
+	
 }

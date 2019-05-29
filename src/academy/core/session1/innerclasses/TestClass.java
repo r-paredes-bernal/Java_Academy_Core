@@ -1,6 +1,6 @@
 package academy.core.session1.innerclasses;
 
-public class TestClass extends NormalClass {
+public class TestClass extends InnerClassExamples {
 	
 	public static void main(String args[]) {
 		TestClass testClass1 = new TestClass();
