@@ -3,6 +3,8 @@ Links of reference:
 Inner Classes:
 https://www.tutorialspoint.com/java/java_innerclasses.htm
 
+https://www.journaldev.com/996/java-inner-class
+
 Static blocks:
 https://dzone.com/articles/the-hidden-synchronized-keyword-with-a-static-bloc
 
